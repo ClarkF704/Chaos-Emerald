@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/style.css">
+    <link rel = "stylesheet" type = "text/css" href = "assets/css/reset.css">
+    <title>Chaos Emerald Game</title>
+</head>
+<body>
+    <div class= "collector">
+    <h1>Chaos Emerald Game</h1>
+    </div>
+    <br>
+    <div class= "rules">
+    <p>Dr. Eggman is trying to steal the Chaos Emeralds again!</p>
+    <p>There are four Chaos Emeralds below. Help Sonic by clicking on a Chaos Emerald to match Dr. Eggmans number!</p>
+    <p>Get as many points as you can before he steals them all!</p>
+    <p>Keep in mind the value of each Chaos Emerald is hidden from you until you click on it.</p>
+    <p>Each time when the game starts, the game will change the value of the Chaos Emerald.</p> 
+    </div>
+
+<br>
+    <div class ="gennumb">
+    <div id ="computerNumber"></div>
+    </div>
+    <div class="sonicpoints">
+    <div> Sonic: <span id ="winz"></span></div>
+    </div>
+    <div class="dregg">
+    <div>Dr. Eggman:<span id ="loss"><span></div>
+    </div>
+        <br>
+        <div class= "pics">
+        <img src="assets/images/chaosG.jpg" id="dOne" alt="diamond" height = "75" width = "80">
+        <img src="assets/images/chaosR.jpg" id="dTwo" alt="diamond" height = "75" width = "80">
+        <img src="assets/images/chaosG.jpg" id="dThree" alt="diamond" height = "75" width = "80">
+        <img src="assets/images/chaosR.jpg" id="dFour" alt="diamond" height = "75" width = "80">
+        </div>
+        <br>
+        <div class="thescore">
+        <p>Chaos Counter:<span id="myScore"></span></p>
+        </div>
+
+        
+
+
+        <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
+        <script src="assets/javascript/game.js"></script>
+       
+</body>
+</html>

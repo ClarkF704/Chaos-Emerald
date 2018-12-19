@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Old+Standard+TT|Righteous');
+
+
+body{
+    background-image: url("sonicz.jpg");
+}
+.collector{
+    text-align: center;
+    background-color: rgb(231, 97, 97);
+    font-family: 'Righteous', cursive;
+    border-style:solid;
+    
+}
+.rules{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    color:black;
+    font-size:35;
+    font:bold;
+    background:white;
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    padding-right:7px;
+    padding-left:7px;
+    border-style:dotted;
+
+}
+.pics {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.thescore {
+    text-align: center;
+    background-color: beige;
+    font-family: 'Old Standard TT', serif;
+    display: inline-block;
+    position: relative;
+    left:650px;
+    padding-right:10px;
+    padding-left:10px;
+}
+.sonicpoints {
+    text-align: right;
+    font-size:50px;
+    font-family: 'Righteous', cursive;
+    background:black;
+    color:white;
+    display: inline-block;
+    position: relative;
+    left: 850px;
+    padding-right:15px;
+    padding-left:15px;
+    bottom: 54px;
+    
+    
+}
+.gennumb {
+    text-align: center;
+    font-family: 'Old Standard TT', serif;
+    font-size:80px;
+    color:white;
+
+}
+.dregg {
+    padding-left:250px;
+    position: relative;
+    bottom: 54px;
+    font-size:50px;
+    font-family: 'Righteous', cursive;
+    background:black;
+    color:white;
+    display: inline-block;
+    position: relative;
+    left: 70px;
+    padding-right:15px;
+    padding-left:15px;
+
+}
